@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEEB35F9200ADE0A00BB736D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB35F8200ADE0A00BB736D /* AppDelegate.swift */; };
+		EEEB35FB200ADE0A00BB736D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB35FA200ADE0A00BB736D /* ViewController.swift */; };
+		EEEB35FE200ADE0A00BB736D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB35FC200ADE0A00BB736D /* Main.storyboard */; };
+		EEEB3600200ADE0A00BB736D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEB35FF200ADE0A00BB736D /* Assets.xcassets */; };
+		EEEB3603200ADE0A00BB736D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB3601200ADE0A00BB736D /* LaunchScreen.storyboard */; };
+		EEEB360E200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB360D200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests.swift */; };
+		EEEB3619200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB3618200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEEB360A200ADE0A00BB736D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEEB35ED200ADE0A00BB736D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEEB35F4200ADE0A00BB736D;
+			remoteInfo = TextFieldDelegateForZipDollarLock;
+		};
+		EEEB3615200ADE0A00BB736D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEEB35ED200ADE0A00BB736D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEEB35F4200ADE0A00BB736D;
+			remoteInfo = TextFieldDelegateForZipDollarLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEEB35F5200ADE0A00BB736D /* TextFieldDelegateForZipDollarLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldDelegateForZipDollarLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEB35F8200ADE0A00BB736D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEEB35FA200ADE0A00BB736D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEEB35FD200ADE0A00BB736D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEEB35FF200ADE0A00BB736D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEEB3602200ADE0A00BB736D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEEB3604200ADE0A00BB736D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEB3609200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldDelegateForZipDollarLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEB360D200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDelegateForZipDollarLockTests.swift; sourceTree = "<group>"; };
+		EEEB360F200ADE0A00BB736D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEB3614200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldDelegateForZipDollarLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEB3618200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDelegateForZipDollarLockUITests.swift; sourceTree = "<group>"; };
+		EEEB361A200ADE0A00BB736D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEEB35F2200ADE0A00BB736D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEB3606200ADE0A00BB736D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEB3611200ADE0A00BB736D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEEB35EC200ADE0A00BB736D = {
+			isa = PBXGroup;
+			children = (
+				EEEB35F7200ADE0A00BB736D /* TextFieldDelegateForZipDollarLock */,
+				EEEB360C200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests */,
+				EEEB3617200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests */,
+				EEEB35F6200ADE0A00BB736D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEEB35F6200ADE0A00BB736D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB35F5200ADE0A00BB736D /* TextFieldDelegateForZipDollarLock.app */,
+				EEEB3609200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests.xctest */,
+				EEEB3614200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEEB35F7200ADE0A00BB736D /* TextFieldDelegateForZipDollarLock */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB35F8200ADE0A00BB736D /* AppDelegate.swift */,
+				EEEB35FA200ADE0A00BB736D /* ViewController.swift */,
+				EEEB35FC200ADE0A00BB736D /* Main.storyboard */,
+				EEEB35FF200ADE0A00BB736D /* Assets.xcassets */,
+				EEEB3601200ADE0A00BB736D /* LaunchScreen.storyboard */,
+				EEEB3604200ADE0A00BB736D /* Info.plist */,
+			);
+			path = TextFieldDelegateForZipDollarLock;
+			sourceTree = "<group>";
+		};
+		EEEB360C200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB360D200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests.swift */,
+				EEEB360F200ADE0A00BB736D /* Info.plist */,
+			);
+			path = TextFieldDelegateForZipDollarLockTests;
+			sourceTree = "<group>";
+		};
+		EEEB3617200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB3618200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests.swift */,
+				EEEB361A200ADE0A00BB736D /* Info.plist */,
+			);
+			path = TextFieldDelegateForZipDollarLockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEEB35F4200ADE0A00BB736D /* TextFieldDelegateForZipDollarLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEB361D200ADE0A00BB736D /* Build configuration list for PBXNativeTarget "TextFieldDelegateForZipDollarLock" */;
+			buildPhases = (
+				EEEB35F1200ADE0A00BB736D /* Sources */,
+				EEEB35F2200ADE0A00BB736D /* Frameworks */,
+				EEEB35F3200ADE0A00BB736D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldDelegateForZipDollarLock;
+			productName = TextFieldDelegateForZipDollarLock;
+			productReference = EEEB35F5200ADE0A00BB736D /* TextFieldDelegateForZipDollarLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEEB3608200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEB3620200ADE0A00BB736D /* Build configuration list for PBXNativeTarget "TextFieldDelegateForZipDollarLockTests" */;
+			buildPhases = (
+				EEEB3605200ADE0A00BB736D /* Sources */,
+				EEEB3606200ADE0A00BB736D /* Frameworks */,
+				EEEB3607200ADE0A00BB736D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEEB360B200ADE0A00BB736D /* PBXTargetDependency */,
+			);
+			name = TextFieldDelegateForZipDollarLockTests;
+			productName = TextFieldDelegateForZipDollarLockTests;
+			productReference = EEEB3609200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEEB3613200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEB3623200ADE0A00BB736D /* Build configuration list for PBXNativeTarget "TextFieldDelegateForZipDollarLockUITests" */;
+			buildPhases = (
+				EEEB3610200ADE0A00BB736D /* Sources */,
+				EEEB3611200ADE0A00BB736D /* Frameworks */,
+				EEEB3612200ADE0A00BB736D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEEB3616200ADE0A00BB736D /* PBXTargetDependency */,
+			);
+			name = TextFieldDelegateForZipDollarLockUITests;
+			productName = TextFieldDelegateForZipDollarLockUITests;
+			productReference = EEEB3614200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEEB35ED200ADE0A00BB736D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sonal;
+				TargetAttributes = {
+					EEEB35F4200ADE0A00BB736D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NV5V6XK4J8;
+						ProvisioningStyle = Automatic;
+					};
+					EEEB3608200ADE0A00BB736D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NV5V6XK4J8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEEB35F4200ADE0A00BB736D;
+					};
+					EEEB3613200ADE0A00BB736D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NV5V6XK4J8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEEB35F4200ADE0A00BB736D;
+					};
+				};
+			};
+			buildConfigurationList = EEEB35F0200ADE0A00BB736D /* Build configuration list for PBXProject "TextFieldDelegateForZipDollarLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEEB35EC200ADE0A00BB736D;
+			productRefGroup = EEEB35F6200ADE0A00BB736D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEEB35F4200ADE0A00BB736D /* TextFieldDelegateForZipDollarLock */,
+				EEEB3608200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests */,
+				EEEB3613200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEEB35F3200ADE0A00BB736D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB3603200ADE0A00BB736D /* LaunchScreen.storyboard in Resources */,
+				EEEB3600200ADE0A00BB736D /* Assets.xcassets in Resources */,
+				EEEB35FE200ADE0A00BB736D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEB3607200ADE0A00BB736D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEB3612200ADE0A00BB736D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEEB35F1200ADE0A00BB736D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB35FB200ADE0A00BB736D /* ViewController.swift in Sources */,
+				EEEB35F9200ADE0A00BB736D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEB3605200ADE0A00BB736D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB360E200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEB3610200ADE0A00BB736D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB3619200ADE0A00BB736D /* TextFieldDelegateForZipDollarLockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEEB360B200ADE0A00BB736D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEEB35F4200ADE0A00BB736D /* TextFieldDelegateForZipDollarLock */;
+			targetProxy = EEEB360A200ADE0A00BB736D /* PBXContainerItemProxy */;
+		};
+		EEEB3616200ADE0A00BB736D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEEB35F4200ADE0A00BB736D /* TextFieldDelegateForZipDollarLock */;
+			targetProxy = EEEB3615200ADE0A00BB736D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEEB35FC200ADE0A00BB736D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEB35FD200ADE0A00BB736D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEEB3601200ADE0A00BB736D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEB3602200ADE0A00BB736D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEEB361B200ADE0A00BB736D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEEB361C200ADE0A00BB736D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEEB361E200ADE0A00BB736D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NV5V6XK4J8;
+				INFOPLIST_FILE = TextFieldDelegateForZipDollarLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sonal.TextFieldDelegateForZipDollarLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EEEB361F200ADE0A00BB736D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NV5V6XK4J8;
+				INFOPLIST_FILE = TextFieldDelegateForZipDollarLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sonal.TextFieldDelegateForZipDollarLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EEEB3621200ADE0A00BB736D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NV5V6XK4J8;
+				INFOPLIST_FILE = TextFieldDelegateForZipDollarLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sonal.TextFieldDelegateForZipDollarLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldDelegateForZipDollarLock.app/TextFieldDelegateForZipDollarLock";
+			};
+			name = Debug;
+		};
+		EEEB3622200ADE0A00BB736D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NV5V6XK4J8;
+				INFOPLIST_FILE = TextFieldDelegateForZipDollarLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sonal.TextFieldDelegateForZipDollarLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldDelegateForZipDollarLock.app/TextFieldDelegateForZipDollarLock";
+			};
+			name = Release;
+		};
+		EEEB3624200ADE0A00BB736D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NV5V6XK4J8;
+				INFOPLIST_FILE = TextFieldDelegateForZipDollarLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sonal.TextFieldDelegateForZipDollarLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TextFieldDelegateForZipDollarLock;
+			};
+			name = Debug;
+		};
+		EEEB3625200ADE0A00BB736D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NV5V6XK4J8;
+				INFOPLIST_FILE = TextFieldDelegateForZipDollarLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sonal.TextFieldDelegateForZipDollarLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TextFieldDelegateForZipDollarLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEEB35F0200ADE0A00BB736D /* Build configuration list for PBXProject "TextFieldDelegateForZipDollarLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEB361B200ADE0A00BB736D /* Debug */,
+				EEEB361C200ADE0A00BB736D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEB361D200ADE0A00BB736D /* Build configuration list for PBXNativeTarget "TextFieldDelegateForZipDollarLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEB361E200ADE0A00BB736D /* Debug */,
+				EEEB361F200ADE0A00BB736D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEEB3620200ADE0A00BB736D /* Build configuration list for PBXNativeTarget "TextFieldDelegateForZipDollarLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEB3621200ADE0A00BB736D /* Debug */,
+				EEEB3622200ADE0A00BB736D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEEB3623200ADE0A00BB736D /* Build configuration list for PBXNativeTarget "TextFieldDelegateForZipDollarLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEB3624200ADE0A00BB736D /* Debug */,
+				EEEB3625200ADE0A00BB736D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEEB35ED200ADE0A00BB736D /* Project object */;
+}
